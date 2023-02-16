@@ -1,0 +1,87 @@
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #eee;
+}
+
+body {
+  font: 16px/26px 'Time Roman', Helvetica, Arial, sans-serif;
+  color: #454545;
+  margin: 0px;
+  padding: 0px;
+  background-color: #eee;
+}
+
+header {
+  padding: 0.75em 0;
+  text-align: center;
+  font-family: 'Georgia', Time Roman', serif;
+  font-size: 21px;
+  text-shadow: 2px 2px #ccc;
+}
+
+.map-container {
+  width:800px;
+  margin: 0 auto;
+  position:relative;
+}
+
+#stateResults {
+  width: 25%;
+  font: 12px/16px 'Time Roman', Helvetica, Arial, sans-serif;
+  color: #8c0404;
+}
+
+#countryResults {
+  width: 95%;
+  font: 16px/28px 'Time Roman', Helvetica, Arial, sans-serif;
+  color: #454545;
+}
+#stateResults, #countryResults {
+  border-collapse: collapse;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(204,204,204,0.5);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(204,204,204,0.5);
+  box-shadow: 1px 1px 1px 1px rgba(204,204,204,0.5);
+}
+
+th, td {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  padding: 8px;
+}
+#stateResults th{
+  background-color: black;
+  color: white;
+}
+#countryResults th {
+  background-color: black;
+  /* background-color:rgb(180, 180, 180);  */
+  color: white;
+}
+.name-1 {
+  background-color: rgba(255, 0, 0, 1.00);
+  color: white;
+}
+.name-2 {
+  background-color: #0846BF;
+  color: white;
+}
+.winner {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  color: black;
+}
+
+footer p {
+  font-family: "Time Roman", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer span {
+  color: #0a0a0a;
+  padding: 0 5px;
+}
